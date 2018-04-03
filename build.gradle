@@ -18,8 +18,8 @@ buildscript {
 apply plugin: 'forge'
 
 version = "1.0"
-group= "com.Fu_Yang.OOP" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "OOP"
+group= "com.Fu_Yang.OriginOfPlanetCore" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "OriginOfPlanetCore"
 
 minecraft {
     version = "1.7.10-10.13.4.1558-1.7.10"
