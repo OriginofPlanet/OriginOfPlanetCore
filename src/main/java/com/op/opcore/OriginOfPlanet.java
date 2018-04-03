@@ -1,6 +1,6 @@
-package com.OOPC.originOfPlanet;
+package com.op.opcore;
 
-import com.OOPC.originOfPlanet.common.CommonProxy;
+import com.op.opcore.common.CommonProxy;
 import cpw.mods.fml.common.SidedProxy;
 import net.minecraft.init.Blocks;
 import cpw.mods.fml.common.Mod;
@@ -21,8 +21,8 @@ public class OriginOfPlanet {
     /**
      * 实例化代理
      */
-    @SidedProxy(serverSide = "com.OOPC.originOfPlanet.common.CommonProxy",
-            clientSide = "com.OOPC.originOfPlanet.client.ClientProxy")
+    @SidedProxy(serverSide = "CommonProxy",
+            clientSide = "ClientProxy")
     public static CommonProxy proxy;
 
     /**

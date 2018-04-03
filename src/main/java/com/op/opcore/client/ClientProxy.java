@@ -1,6 +1,6 @@
-package com.OOPC.originOfPlanet.client;
+package com.op.opcore.client;
 
-import com.OOPC.originOfPlanet.common.CommonProxy;
+import com.op.opcore.common.CommonProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;

@@ -1,4 +1,4 @@
-package com.OOPC.originOfPlanet.common;
+package com.op.opcore.common;
 
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
