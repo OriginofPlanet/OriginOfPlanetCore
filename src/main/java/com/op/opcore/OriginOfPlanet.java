@@ -2,6 +2,8 @@ package com.op.opcore;
 
 import com.op.opcore.common.CommonProxy;
 import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import net.minecraft.init.Blocks;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -21,8 +23,8 @@ public class OriginOfPlanet {
     /**
      * 实例化代理
      */
-    @SidedProxy(serverSide = "CommonProxy",
-            clientSide = "ClientProxy")
+    @SidedProxy(serverSide = "com.op.opcore.common.CommonProxy",
+            clientSide = "com.op.opcore.client.ClientProxy")
     public static CommonProxy proxy;
 
     /**
@@ -32,8 +34,19 @@ public class OriginOfPlanet {
     public static OriginOfPlanet instance;
 
     @EventHandler
+    public void preInit(FMLPreInitializationEvent event){
+        proxy.preInit(event);
+    }
+
+    @EventHandler
     public void init(FMLInitializationEvent event) {
         // some example code
+        proxy.init(event);
         System.out.println("DIRT BLOCK >> " + Blocks.dirt.getUnlocalizedName());
+    }
+
+    @EventHandler
+    public void postInit(FMLPostInitializationEvent event){
+        proxy.postInit(event);
     }
 }
