@@ -1,0 +1,94 @@
+[20:31:03] [main/INFO]: Setting user: Player865
+[20:31:09] [Client thread/INFO]: LWJGL Version: 2.9.1
+[20:31:42] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TerraFirmaCraft, FMLFileResourcePack:Origin Of Planet, FMLFileResourcePack:Waila
+[20:31:48] [Sound Library Loader/INFO]: Sound engine started
+[20:31:50] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[20:31:50] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[20:31:53] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TerraFirmaCraft, FMLFileResourcePack:Origin Of Planet, FMLFileResourcePack:Waila
+[20:31:56] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
+[20:31:58] [Client thread/INFO]: Created: 1024x512 textures/items-atlas
+[20:31:59] [Sound Library Loader/INFO]: Sound engine started
+[20:32:24] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[20:32:24] [Server thread/INFO]: Generating keypair
+[20:32:24] [Server thread/INFO]: Converting map!
+[20:32:24] [Server thread/INFO]: Scanning folders...
+[20:32:24] [Server thread/INFO]: Total conversion count is 0
+[20:32:26] [Server thread/INFO]: Preparing start region for level 0
+[20:32:27] [Server thread/INFO]: Preparing spawn area: 6%
+[20:32:28] [Server thread/INFO]: Preparing spawn area: 11%
+[20:32:29] [Server thread/INFO]: Preparing spawn area: 19%
+[20:32:30] [Server thread/INFO]: Preparing spawn area: 28%
+[20:32:31] [Server thread/INFO]: Preparing spawn area: 37%
+[20:32:32] [Server thread/INFO]: Preparing spawn area: 47%
+[20:32:33] [Server thread/INFO]: Preparing spawn area: 54%
+[20:32:34] [Server thread/INFO]: Preparing spawn area: 63%
+[20:32:35] [Server thread/INFO]: Preparing spawn area: 71%
+[20:32:36] [Server thread/INFO]: Preparing spawn area: 77%
+[20:32:37] [Server thread/INFO]: Preparing spawn area: 84%
+[20:32:38] [Server thread/INFO]: Preparing spawn area: 91%
+[20:32:39] [Server thread/INFO]: Preparing spawn area: 98%
+[20:32:40] [Server thread/INFO]: Changing view distance to 12, from 10
+[20:32:41] [Server thread/INFO]: Player865[local:E:862688f1] logged in with entity id 26 at (188.5, 149.0, -6780.5)
+[20:32:41] [Server thread/INFO]: Player865 joined the game
+[20:32:44] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3495ms behind, skipping 69 tick(s)
+[20:32:50] [Client thread/INFO]: [CHAT] Version 1.0.7.47 of CodeChickenCore is available
+[20:32:50] [Client thread/INFO]: [CHAT] Version 1.0.5.120 of NotEnoughItems is available
+[20:32:59] [pool-3-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@2154ba5a[id=42c8facc-cbd2-36d2-8ac3-7dd20c6ce2a1,name=Player865,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:71) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:158) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:53) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:50) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:148) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:133) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_101]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_101]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[?:1.8.0_101]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[?:1.8.0_101]
+	at java.net.SocketInputStream.read(SocketInputStream.java:170) ~[?:1.8.0_101]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_101]
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465) ~[?:1.8.0_101]
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503) ~[?:1.8.0_101]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973) ~[?:1.8.0_101]
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375) ~[?:1.8.0_101]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403) ~[?:1.8.0_101]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387) ~[?:1.8.0_101]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559) ~[?:1.8.0_101]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:90) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1433) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1431) ~[?:1.8.0_101]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_101]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1430) ~[?:1.8.0_101]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254) ~[?:1.8.0_101]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:126) ~[HttpAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:54) ~[YggdrasilAuthenticationService.class:?]
+	... 18 more
+[20:33:05] [Server thread/INFO]: Player865 has just earned the achievement [Taking Inventory]
+[20:33:06] [Client thread/INFO]: [CHAT] Player865 has just earned the achievement [Taking Inventory]
+[20:33:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7885ms behind, skipping 157 tick(s)
+[20:33:08] [Server thread/INFO]: Saving and pausing game...
+[20:33:08] [Server thread/INFO]: Saving chunks for level 'New World'/DEFAULT
+[20:33:08] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[20:33:08] [Server thread/INFO]: Saving chunks for level 'New World'/DEFAULT
+[20:33:09] [Server thread/INFO]: Stopping server
+[20:33:09] [Server thread/INFO]: Saving players
+[20:33:10] [Server thread/INFO]: Saving worlds
+[20:33:10] [Server thread/INFO]: Saving chunks for level 'New World'/DEFAULT
+[20:33:10] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[20:33:10] [Server thread/INFO]: Saving chunks for level 'New World'/DEFAULT
+[20:33:31] [Client thread/INFO]: Stopping!
